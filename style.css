@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.loading{
+    width: 60px;
+}
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.countdown{
+    transform: scale(2);
+    display: none;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+.time h2 {
+    margin: 0 0 5px;
+}
+.year {
+    font-size: 200px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 20px;
+}
