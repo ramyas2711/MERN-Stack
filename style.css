@@ -23,7 +23,7 @@ h1{
     text-transform: capitalize;
 }
 .countdown{
-    transform: scale(3);
+    transform: scale(2);
     display: none;
 }
 .time{
